@@ -6,9 +6,8 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../mp2-lab2-matrix
+  - cmake ../mp2_lab_Matrix
   - make -j
-  - ls
-  - ./vector/vector
+  - ./test/Matrix_Test
 notifications:
   email: false
